@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Filip Kotłowski">
+    <!--Contact: kotlowskifilip@gmail.com-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykładowe fryzury</title>
+    <link rel="stylesheet" href="./styles/hair-style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico">
+</head>
+
+<body>
+    <section id="hairstyle">
+        <a href="index.html">Powrót</a>
+        <div id="hair-game">
+            <button id="close-btn">x</button>
+            <div id="rating-side">
+                <div id="model-side">
+                    <div id="model-image"></div>
+                </div>
+                <div id="rate-side">
+                    <div class="numeros " id="rate1">
+                        <p>Atrakcyjność</p>
+                    </div>
+                    <div class="numeros" id="rate2">
+                        <p>Odważność</p>
+                    </div>
+                    <div class="numeros" id="rate3">
+                        <p>Czas przejściowy</p>
+                    </div>
+                    <div class="numeros" id="rate4">
+                        <p>Ogolna ocena</p>
+                    </div>
+                </div>
+            </div>
+            <div id="image-side">
+                <div id="image1"></div>
+                <div class="bottom">
+                    <div id="image2"></div>
+                    <div id="image3"></div>
+                </div>
+            </div>
+        </div>
+        <h1>Fryzury</h1>
+        <h4>(Kliknij w obrazek aby zobaczyć szczegóły)</h4>
+        <div id="hair-board">
+            <div class="option" id="num1"></div>
+            <div class="option" id="num2"></div>
+            <div class="option" id="num3"></div>
+            <div class="option " id="num4"></div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="hair.js"></script>
+</body>
+
+</html>

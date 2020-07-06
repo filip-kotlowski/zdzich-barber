@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Filip Kotłowski">
+    <!--Contact: kotlowskifilip@gmail.com-->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico">
+    <title>Zdzich Barber - Barber Shop Zdzieszowice</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="./styles/fontello.css">
+    <link rel="stylesheet" href="./styles/fontello-codes.css">
+    <link rel="stylesheet" href="./styles/fontello-embedded.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <div id="phone-nav">
+        <i id="about-icon" class="icon-users-outline" onclick="location.href='#about-us'"></i>
+        <i id="price-icon" class="icon-tag" onclick="location.href='#price-list'"></i>
+        <div class="home" onclick="location.href='#'"></div>
+        <i id="contact-icon" class="icon-calendar" onclick="location.href='#contact'"></i>
+        <i id="hair-icon" class="icon-scissors-outline" onclick="location.href='hair.html'"></i>
+    </div>
+
+    <nav>
+        <a href="#">Strona główna</a>
+        <a href="#about-us">O nas</a>
+        <a href="#price-list">Cennik</a>
+        <a href="hair.html">Oferta</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <header>
+        <div class="container">
+            <div id="header-content">
+                <section class="content">
+                    <h1 id="big-title">Zdzich Barber</h1>
+                    <h3 id="medium-title">Najlepszy barber na Opolszczyźnie</h3>
+                    <h5 id="small-title">Zdzieszowice Fabryczna 1</h5>
+                </section>
+            </div>
+            <div id="slider">
+                <figure id="photo1" class="photo"></figure>
+                <figure id="photo2" class="photo"></figure>
+                <figure id="photo3" class="photo"></figure>
+            </div>
+        </div>
+    </header>
+    <section id="about-us">
+        <div id="container">
+            <div id="left-content">
+                <img src="img/about.png" alt="" srcset="" id="about-pic">
+            </div>
+            <div id="right-content">
+                <h1>Poznaj nas bliżej</h1>
+                <div class="content">
+                    <p>Naszą misją jest przybliżenie i doskonalenie dorobku klasycznego fryzjerstwa męskiego.
+                        Specjalizujemy
+                        się
+                        w <span class="distinction">ponadczasowych fryzurach</span>, które są odporne na chwilowe
+                        mody.
+                        Niezależnie od tego czy jesteś zawadiaką, dżentelmenem, dandysem czy statecznym ojcem
+                        rodziny,
+                        nasza
+                        ekipa zaserwuje Ci <span class="distinction">klasyczną fryzurę męską</span>, która była ci
+                        pisana od
+                        zawsze. Zyskasz pewność siebie,
+                        żeby wyruszyć szukać przygód, wreszcie zaprosić ją na randkę albo stawić czoła wszelkim
+                        przeciwnościom.<br />
+                        Balwierz, cyrulik, barber, fryzjer męski – <span class="distinction">nie liczy się nazwa</span>,
+                        ale umiejętności i pasja. A tego nam na pewno nie brakuje.
+                    </p>
+                    <button onclick="location.href='#contact'" id="contact-button">Skontaktuj się z nami</button>
+
+                </div>
+            </div>
+        </div>
+        <h2>Nasza drużyna</h2>
+        <div class="photos">
+            <div id="logo"></div>
+            <div class="photo">
+                <figure> <img src="./img/grzegorz.jpg" alt="" class="man1"></figure>
+                <p>Grzegorz</p>
+            </div>
+            <div class="photo">
+                <figure>
+                    <img src="./img/bartlomiej.jpeg" alt="" class="man1">
+                </figure>
+                <p>Bartłomiej</p>
+            </div>
+        </div>
+        <div class="photos">
+            <div class="photo">
+                <figure>
+                    <img src="./img/roman.jpeg" alt="" class="man1">
+                </figure>
+                <p>Roman</p>
+            </div>
+            <div class="photo">
+                <figure>
+                    <img src="./img/jan.jpeg" alt="" class="man1">
+                </figure>
+                <p>Jan</p>
+            </div>
+        </div>
+        <div id="mob-photos">
+            <div class="images"></div>
+            <p></p>
+        </div>
+        </div>
+    </section>
+    <div id="paralax1"></div>
+    <section id="price-list">
+        <div id="schedule-1">
+            <table>
+                <tr>
+                    <td></td>
+                    <td>Poniedziałek</td>
+                    <td>Wtorek</td>
+                    <td>Środa</td>
+                    <td>Czwartek</td>
+                    <td>Piątek</td>
+                    <td>Sobota</td>
+                </tr>
+                <tr>
+                    <td>Grzegorz</td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Bartłomiej</td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Roman</td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup> </td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Jan</td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>-14 <sup>30</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>-14 <sup>30</sup></td>
+                    <td>9<sup>00</sup>-14 <sup>30</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                </tr>
+            </table>
+        </div>
+        <div id="schedule-2">
+            <table>
+                <tr>
+                    <td></td>
+                    <td>Grzegorz</td>
+                    <td>Bartłomiej</td>
+                    <td>Roman</td>
+                    <td>Jan</td>
+                </tr>
+                <tr>
+                    <td>Pon.</td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Wt.</td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Śr.</td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Czw.</td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Pt.</td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                </tr>
+                <tr>
+                    <td>Sob.</td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                    <td>12 <sup>00</sup> - 20 <sup>00</sup></td>
+                    <td>9<sup>00</sup>- 17 <sup>00</sup></td>
+                </tr>
+            </table>
+        </div>
+        <h1>Cennik usług</h1>
+        <!--Hair-->
+        <div class="divider">
+            <div class="title">
+                <p>Włosy</p>
+            </div>
+        </div>
+        <div class="content">
+            <!--hairstyle num1-->
+            <div class="hairstyle">
+                <p><span class="distinction">Krótkie strzyżenie męskie</span> (jedna długość) / 20min – <span
+                        class="distinction">30zł</span></p>
+                <p> Strzyżenie maszynką na jednakową, krótką długość.</p>
+            </div>
+            <!--hairstyle num2-->
+            <div class="hairstyle">
+                <p><span class="distinction">Golenie głowy brzytwą z gorącym ręcznikiem</span> / 60min – <span
+                        class="distinction">70zł</span></p>
+                <p>Dwukrotne golenie głowy brzytwą z użyciem gorących i zimnych ręczników wraz z pielęgnacją skóry
+                    głowy.
+                </p>
+            </div>
+            <!--hairstyle num3-->
+            <div class="hairstyle">
+                <p><span class="distinction">Klasyczne strzyżenie męskie</span> / 60min – <span
+                        class="distinction">90zł</span></p>
+                <p> Klasyka fryzur męskich, strzyżenie dotyczy włosów krótkich, średnich i długich</p>
+            </div>
+        </div>
+        <!--Beard and mustache-->
+        <div class="divider">
+            <div class="title">
+                <p>Broda i wąsy</p>
+            </div>
+        </div>
+        <div class="content">
+            <!--hairstyle num1-->
+            <div class="hairstyle">
+                <p><span class="distinction"> Strzyżenie i pielęgnacja brody</span> / 45min – <span
+                        class="distinction">60zł</span></p>
+                <p> Strzyżenie, trymowanie oraz wyrównanie konturów. Zabieg z użyciem gorącego ręcznika, brzytwy
+                    oraz
+                    olejków pielęgnacyjnych.</p>
+            </div>
+            <!--hairstyle num2-->
+            <div class="hairstyle">
+                <p><span class="distinction">Strzyżenie i repigmentacja brody</span> / 70min – <span
+                        class="distinction">120zł</span></p>
+                <p>Strzyżenie, trymowanie oraz wyrównanie konturów. Repigmentacja brody profesjonalnymi kosmetykami.
+                    Zabieg z użyciem gorącego ręcznika, brzytwy oraz olejków pielęgnacyjnych.
+                </p>
+            </div>
+            <!--hairstyle num3-->
+            <div class="hairstyle">
+                <p><span class="distinction">Strzyżenie i pielęgnacja wąsów </span> / 20min – <span
+                        class="distinction">20zł</span></p>
+                <p> Trymowanie wąsów, wyrównanie konturów i podkręcenie wąsów na wosk.</p>
+            </div>
+        </div>
+        <!--Promotions-->
+        <div class="divider">
+            <div class="title">
+                <p>Pakiety usług</p>
+            </div>
+        </div>
+        <div class="content">
+            <!--hairstyle num1-->
+            <div class="hairstyle">
+                <p><span class="distinction"> Combo</span> klasyczne strzyżenie + strzyżenie i pielęgnacja brody /
+                    80min – <span class="distinction">140zł</span></p>
+            </div>
+            <!--hairstyle num2-->
+            <div class="hairstyle">
+                <p><span class="distinction">Gładki jak pupa niemowlaka</span> golenie głowy i twarzy brzytwą /
+                    120min - <span class="distinction">140zł</span></p>
+            </div>
+            <!--hairstyle num3-->
+            <div class="hairstyle">
+                <p><span class="distinction">Łysy z brodą </span> golenie głowy brzytwą + strzyżenie i pielęgnacja
+                    brody
+                    / 110 min - <span class="distinction">120zł</span></p>
+            </div>
+            <!--hairstyle num4-->
+            <div class="hairstyle">
+                <p><span class="distinction">Elegancja Francja </span> klasyczne strzyżenie + golenie twarzy brzytwą
+                    /
+                    120 min -
+                    <span class="distinction">150zł</span></p>
+            </div>
+            <!--hairstyle num5-->
+            <div class="hairstyle">
+                <p><span class="distinction">Jaki ojciec taki syn </span> 2x klasyczne strzyżenie - <span
+                        class="distinction">160zł</span></p>
+            </div>
+        </div>
+        <button onclick="location.href = 'hair.html'">Zobacz zdjęcia naszych klientów</button>
+    </section>
+    <section id="contact">
+        <div id="big-bubble">
+            <div id="company-map"></div>
+            <div id="exit" class="icon-logout"></div>
+        </div>
+        <div id="up-side"></div>
+        <div id="bottom-side">
+            <div id="left-bubble" class="icon-map">
+                <p id="left-paragraph"></p>
+            </div>
+
+            <h1>Skontaktuj się z nami</h1>
+            <h2 onclick="location.href='tel:+886049717'">886 049 717</h2>
+            <form action="">
+                <input type=" text" placeholder="Podaj imię i nazwisko">
+                <input type="email" placeholder="Podaj adres e-mail">
+                <input type="tel" placeholder="Podaj numer telefonu (123456789)" pattern="[0-9]{3}[0-9]{3}[0-9]{3}">
+                <button>Wyślij</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p> &copy;Wszystkie prawa zastrzeżone. Zdzich Barber 2020.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="mobileNav.js"></script>
+    <script src="headerAnimation.js"></script>
+    <script src="start.js"></script>
+    <script src="paralaxedPic.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>
